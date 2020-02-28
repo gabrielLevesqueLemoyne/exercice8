@@ -74,7 +74,8 @@ echo '<h2>' . category_description( get_category_by_slug( 'nouvelle' )). '<h2>';
  /* The 2nd Query (without global var) */
 $args2 = array(
     "category_name" => "evenement",
-    "posts_per_page" => 10
+    "posts_per_page" => 10,
+    "order" => "ASC"
 
 );
 
